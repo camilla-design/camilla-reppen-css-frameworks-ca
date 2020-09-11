@@ -1,0 +1,17 @@
+.pagination {
+
+    .page__link {
+        color: $primary;
+        border: 1px solid $primary;
+        font-size: 16px;
+    }
+
+    .page__item.active .page-link {
+        background-color: $primary;
+            border: 1px solid $primary;
+    }
+
+}
+
+
+

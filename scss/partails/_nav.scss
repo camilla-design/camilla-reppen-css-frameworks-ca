@@ -1,0 +1,79 @@
+
+
+nav {
+
+
+    .navbar__brand {
+        font-family: $secondary-font;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+        color: $primary !important;
+        padding-left: 16px;
+    }
+
+    .navbar {
+        background: $background !important;
+        padding: 0 !important;
+        padding-top: 6px;
+        padding-bottom: 8px;
+    }
+
+    .nav__link {
+        color: black !important;
+        font-size: 18px;
+        margin-left: 16px;
+        padding: 8px !important;
+        
+        &:hover {
+            background: $secondary!important; 
+        }
+    }
+
+    .active {
+        background: $secondary!important;
+    }
+
+
+    .navbar__collapse {
+        z-index: 1;
+    }
+
+    .nav__item {
+       margin: 0px;
+    }
+
+    .btn {
+        background: $primary !important;
+        color: $secondary!important;
+        font-size: 16px;
+        font-weight: 300;
+        padding: 8px;
+    }
+
+    .form__control {
+        border: $secondary!important;
+        width: 80%;
+        font-weight: 300;
+        font-size: 15px;
+        color: $icon-colour !important;
+    }
+
+    .form__inline {
+        padding-left: 16px;
+        margin-top: 18px;
+        margin-bottom: 12px;
+    }
+
+    .navbar__nav {
+        padding-top: 16px;
+    }
+
+    @media (min-width: 768px) {
+        .navbar__nav {
+            padding-left: 20px;
+        }
+    }
+
+}
+

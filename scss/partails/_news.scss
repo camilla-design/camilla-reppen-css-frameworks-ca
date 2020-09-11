@@ -1,0 +1,38 @@
+.card-body {
+
+    .btn__primary {
+        background: $icon-colour;
+        border: none;
+        position: relative;
+        width: 90%;
+    
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 93%;
+            height: 100%;
+            background: $primary;
+
+            @media (min-width: 768px) {
+                width: 85%;
+            }
+        }
+
+        &:after {
+            content: "MORE";
+            position: absolute;
+            left: 40%;
+        }
+
+
+    
+    }
+
+
+}
+
+
+
+

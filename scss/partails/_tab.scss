@@ -1,0 +1,19 @@
+.nav-tabs {
+    border-bottom: none;
+    
+    .nav-link.active  {
+            color: $icon-colour !important;
+            border-radius: 12px 12px 0 0  !important;
+    }
+
+    .nav-link {
+        color: $primary !important;
+    }
+}
+
+.tab-pane.fade.show.active {
+    background-color: $secondary;
+    padding: 2rem;
+    border-radius: 0 0 12px 12px  !important;
+    box-shadow: 0px 0px $icon-colour;
+}

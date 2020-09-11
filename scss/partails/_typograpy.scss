@@ -1,0 +1,15 @@
+h1,
+h2 {
+    font-family: $secondary-font;
+    color: $primary;
+}
+
+p {
+    color: $icon-colour;
+}
+
+.btn__link,
+.tab__link{
+    color: $primary !important;
+}
+

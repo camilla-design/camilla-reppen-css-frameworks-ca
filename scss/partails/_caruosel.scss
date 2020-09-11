@@ -1,0 +1,26 @@
+.carousel {
+
+    .carousel__item {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .carousel__indicators li {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+        background-color: $secondary;
+    }
+
+    .active{
+        background-color: $primary !important;
+    }
+
+    .carousel__inner {
+        max-height: 600px;
+    }
+
+}
+
+

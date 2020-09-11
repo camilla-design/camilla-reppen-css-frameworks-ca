@@ -1,0 +1,34 @@
+.accordion__homepage {
+
+    .card:first-child {
+        border-radius: 12px 12px 0 0 !important;
+    }
+
+    .card:last-child {
+        border-radius: 0 0 12px 12px !important;
+    }
+
+    .card__header {
+        background: $secondary;
+        border-bottom: 1px solid $primary;
+
+        &--two {
+            background: $secondary; 
+        }
+
+    }
+    .card__body {
+        background: $background;
+        color: $icon-colour;
+
+        p {
+            color: black;
+
+            @media (min-width: 768px) {
+                color: black;
+        }
+    }
+}
+
+    
+}

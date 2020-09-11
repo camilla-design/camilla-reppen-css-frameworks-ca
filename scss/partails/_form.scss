@@ -1,0 +1,35 @@
+.form__container {
+
+    form {
+        background: $background;
+        padding: 30px;
+        color: $icon-colour;
+    }
+
+    .form__control {
+        border: none;
+    }
+    
+
+    .custom-checkbox .custom-control-input.my-error~.custom-control-label::before{
+        background-color: $primary;
+        width: 34px;
+        height: 33px;
+        border: $primary;
+      }
+
+      .custom-control-label {
+          font-size: 13px;
+          padding-left: 30px;
+      }
+
+      button {
+          width: 90%;
+          margin-top: 30px;
+          background: $icon-colour;
+          border: $icon-colour;
+      }
+}
+
+
+
